@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px  20px;
+}
+.logo{
+    float: left;
+    color: white;
+    letter-spacing: 5px;
+}
+.menu a{
+    float: right;
+    color: antiquewhite;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.top_wrapper{
+    text-align: center;
+    padding-top: 100px;
+}
+.ninja{
+    width: 150px;
+}
+.container{ 
+    padding: 30px;
+}
+.ttg{
+    text-align: center;
+    background-color: #d1cfe2;
+}
+.lesson{
+    float:left;
+    width:33%;
+}
+.lessons{
+    text-align: center;
+    height: 300px;
+}
+footer{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px  20px;
+}
+.hubungi{
+    text-align: center;
+    background-color: #d1cfe2;
+}
+.kontak a{
+    float: right;
+    color: antiquewhite;
+    text-decoration: none;
+}
